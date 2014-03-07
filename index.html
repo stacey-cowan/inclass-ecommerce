@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Home
+bannertext: Dinosaurs! Dinosaurs! Dinosaurs!
+showbanner: yes
 ---
 
 
@@ -7,3 +10,15 @@ layout: default
 <h1>Dinos 'R' Us</h1>
     
 <p>Lorem ipsum dolor sit amet, consecteteur adipiscing elit.</p>
+
+<div class="grid">
+    <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% include promo-small.html title="Promo 1" desc="Fantastico!" image="air-dinos/pteranodon.jpg" %}
+    </div>
+    <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% include promo-small.html title="Promo 2" desc="Super-Duper!" image="land-dinos/hadrosaur.jpg" %}
+    </div>
+    <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% include promo-small.html title="Promo 3" desc="Amaze-balls!" image="land-dinos/iguanodon.jpg" %}
+    </div>
+</div>
